@@ -42,3 +42,7 @@ console.log(typeof myFunction); // but returns type value as function
 // Object (native and does not implement[[Call]]) | "object"
 // Object (native or host and does not implement [[Call]]) | "function"
 // Object (host and does not implement [[Call]]) | Implementation-defined except may not be "undefined", "boolean", "number", or "string".
+
+// +.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+
+// Stack -> Primitive => Copy 
+// Heap -> Non-Primitive => Reference
